@@ -1,16 +1,14 @@
 {
-    "name": "fabpot/goutte",
+    "name": "Giauphan/goutte",
     "type": "application",
     "description": "A simple PHP Web Scraper",
     "keywords": ["scraper"],
-    "homepage": "https://github.com/FriendsOfPHP/Goutte",
+    "homepage": "https://github.com/Giauphan/Goutte",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
-        }
-    ],
+    "authors": [{
+        "name": "Giau Phan",
+        "email": "giauphan012@gmail.com"
+    }],
     "require": {
         "php": ">=7.1.3",
         "symfony/deprecation-contracts": "^2.1|^3",
