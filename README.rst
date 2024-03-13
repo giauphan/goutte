@@ -21,11 +21,11 @@ Goutte depends on PHP 7.1+.
 Installation
 ------------
 
-Add ``fabpot/goutte`` as a require dependency in your ``composer.json`` file:
+Add ``giauphan/goutte`` as a require dependency in your ``composer.json`` file:
 
 .. code-block:: bash
 
-    composer require fabpot/goutte
+    composer require giauphan/goutte
 
 Usage
 -----
@@ -83,7 +83,7 @@ Submit forms:
     $crawler = $client->request('GET', 'https://github.com/');
     $crawler = $client->click($crawler->selectLink('Sign in')->link());
     $form = $crawler->selectButton('Sign in')->form();
-    $crawler = $client->submit($form, ['login' => 'fabpot', 'password' => 'xxxxxx']);
+    $crawler = $client->submit($form, ['login' => 'giauphan', 'password' => 'xxxxxx']);
     $crawler->filter('.flash-error')->each(function ($node) {
         print $node->text()."\n";
     });
